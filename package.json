@@ -1,0 +1,67 @@
+{
+  "name": "todortkquery",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "@react-navigation/native": "6.0.6",
+    "@react-navigation/native-stack": "6.2.5",
+    "@reduxjs/toolkit": "1.6.2",
+    "lodash": "^4.17.21",
+    "react": "17.0.2",
+    "react-native": "0.66.1",
+    "react-native-config": "1.4.5",
+    "react-native-gesture-handler": "1.10.3",
+    "react-native-localization": "2.1.7",
+    "react-native-paper": "4.10.0",
+    "react-native-reanimated": "2.2.3",
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-screens": "3.9.0",
+    "react-native-vector-icons": "9.0.0",
+    "react-redux": "7.2.6"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.9",
+    "@babel/runtime": "7.12.5",
+    "@react-native-community/eslint-config": "2.0.0",
+    "@types/jest": "26.0.23",
+    "@types/lodash": "^4.14.176",
+    "@types/react-native": "0.65.0",
+    "@types/react-native-vector-icons": "6.4.9",
+    "@types/react-test-renderer": "17.0.1",
+    "@typescript-eslint/eslint-plugin": "4.32.0",
+    "@typescript-eslint/parser": "4.32.0",
+    "babel-jest": "26.6.3",
+    "babel-plugin-module-resolver": "4.1.0",
+    "eslint": "7.14.0",
+    "eslint-plugin-simple-import-sort": "7.0.0",
+    "eslint-plugin-sort-keys-fix": "1.1.2",
+    "jest": "26.6.3",
+    "metro-react-native-babel-preset": "0.66.2",
+    "prettier": "2.4.1",
+    "react-native-flipper": "0.115.0",
+    "react-test-renderer": "17.0.2",
+    "redux-flipper": "2.0.1",
+    "typescript": "3.8.3"
+  },
+  "resolutions": {
+    "@types/react": "17"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
